@@ -1,0 +1,16 @@
+CodeBook
+
+The data shown in the output file, "FinalTidyOutput.txt", is a summary of the data contained in the text files of this zip file:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The original dataset contained data from 30 test subjects, who performed 6 different activities 
+while a body sensor recorded 561 measurements. The FinalTidyOutput file aggregates these measurements to for each subject, while they 
+performed each activity, the average of each of the mean and standard deviation measurements from the sensor. There are 79 of these 
+measurements in total.
+
+The variables of the FinalTidyOutput dataset should be interpreted as follows:
+1) Activity: which of the 6 activities the subject was performing: 
+    (Laying, Sitting, Standing, Walking, Walking Downstairs, Walking Upstairs).
+2) Subject: which subject (1-30) was performing the activity.
+3-81) Each one of these variables represents the average of one of the 79 mean or standard deviation measurements from the sensor
+    while the subject performed the activity specified.
